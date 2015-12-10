@@ -43,11 +43,3 @@ function Drawer(svgtarget){
   }
   return that;
 }
-
-var johansvg = Drawer('johansvg');
-johansvg.init();
-johansvg.draw();
-
-var planetsvg = Drawer('planetsvg');
-planetsvg.init();
-planetsvg.draw();
